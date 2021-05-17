@@ -1,0 +1,41 @@
+body{	
+	height: 100%;
+	margin: 0px;
+	padding:0px;
+	}
+a{
+	text-decoration: none;
+    color: white;
+}
+img{
+	max-width: 100%;
+}
+.gomb{
+	font-size: 1rem;	
+	padding: 1rem 1rem;			
+	background-color: #000000;		
+	margin: 0.1rem 0.1rem;		
+	display: inline-block;
+}
+.fent{	
+	background="css/kepek/hatter.jpg"
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	grid-gap: 1rem;
+	margin: 1rem;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+h1{
+		color:red;
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: #3C3C3C;
+}
+
+
+
